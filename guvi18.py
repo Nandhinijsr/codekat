@@ -1,0 +1,11 @@
+u=int(input())
+sum=0
+temp=u
+while(u>0):
+    dig=u%10
+    sum=sum*10+dig
+    u=u//10
+if(temp==sum):
+    print("yes")
+else:
+    print("no")
