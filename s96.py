@@ -6,6 +6,6 @@ for j in range(0,x-1):
 		if p[j]==p[k]:
 			q+=1
 if q==0:
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
