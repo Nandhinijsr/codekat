@@ -7,4 +7,4 @@ for j in range(s,t+1):
 			y+=1
 	if y==2:
 		u.append(j)
-print(len(U))
+print(len(u))
